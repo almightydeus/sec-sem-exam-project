@@ -15,21 +15,26 @@ This guide outlines the steps to provision a server, set up a web server, and co
 
 ### Launch an EC2 Instance
 1. Navigate to the **EC2 Dashboard** in AWS.
-![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021703.png)
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021617.png)
 
 2. Click **Launch Instance**.
 3. Configure the instance:
    - **Amazon Machine Image (AMI):** Select an AMI, e.g., Ubuntu Server 20.04 LTS.
    - **Instance Type:** Choose `t2.micro` (AWS Free Tier eligible).
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021703.png)
 4. Set up the **Key Pair:**
    - Specify a key pair name, key pair type as **RSA**, and private key file format as **.pem**.
    - When done creating the key pair, the `.pem` file will be downloaded to your local machine. **NOTE:** This `.pem` file should be kept safe in your local machine. Without it, you won't be able to gain access to your instance.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021751.png)
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20023929.png)
 5. Configure the **Security Group:**
    - Allow SSH traffic from `Anywhere` or your IP (helps you connect to your instance).
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021823.png)
 6. Configure **Storage:**
    - Leave the default storage size (8GB).
 7. Launch the instance.
    - The instance will take a few minutes to initialize.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20024644.png)
 
 ### Connect to the Server
 1. Open a terminal or SSH client (e.g., Termius).
