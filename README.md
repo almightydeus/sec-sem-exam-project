@@ -15,7 +15,7 @@ This guide outlines the steps to provision a server, set up a web server, and co
 
 ### Launch an EC2 Instance
 1. Navigate to the **EC2 Dashboard** in AWS.
-![Alt Text](Screenshot 2024-12-22 021617.png)
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021703.png)
 
 2. Click **Launch Instance**.
 3. Configure the instance:
