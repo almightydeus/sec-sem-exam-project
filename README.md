@@ -1,3 +1,5 @@
+# INSTANCE IP: 34.244.67.156
+
 # Server Setup Guide
 
 ## Project Overview
