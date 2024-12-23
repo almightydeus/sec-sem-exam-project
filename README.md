@@ -15,10 +15,11 @@ This guide outlines the steps to provision a server, set up a web server, and co
 
 ### Launch an EC2 Instance
 1. Navigate to the **EC2 Dashboard** in AWS.
-![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021617.png)
-
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-23%20215721.png)
 2. Click **Launch Instance**.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021617.png)
 3. Configure the instance:
+   - Specify the name of the instance
    - **Amazon Machine Image (AMI):** Select an AMI, e.g., Ubuntu Server 20.04 LTS.
    - **Instance Type:** Choose `t2.micro` (AWS Free Tier eligible).
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20021703.png)
