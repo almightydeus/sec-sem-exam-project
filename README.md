@@ -40,11 +40,15 @@ This guide outlines the steps to provision a server, set up a web server, and co
 ### Connect to the Server
 1. Open a terminal or SSH client (e.g., Termius).
 2. Change directory (cd) to the working directory where the `.pem` file is located. Without this file, connection to the instance will be unsuccessful.
-3. Use the following command to connect to the instance:
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20030344.png)
+4. Use the following command to connect to the instance:
    ```bash
    ssh -i "your-key-file.pem" ubuntu@<your-instance-public-ip>
    ```
    Replace `your-key-file.pem` with the path to your private key file and `<your-instance-public-ip>` with the instance’s public IP address.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20030414.png)
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20030521.png)
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20030543.png)
 
 ---
 
