@@ -59,18 +59,21 @@ Ensure the system is up-to-date.
 
 1. **Update the System:**
    Update the instance using the command `sudo apt update` to ensure the instance is up-to-date. **Note:** I used `sudo` in the command because it's the Ubuntu user and not the root user.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-22%20043036.png)
 
-2. **Install Nginx:**
+3. **Install Nginx:**
    Use the command `sudo apt install nginx` to install nginx. Nginx is the software service which renders the web contents or page.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-24%20084910.png)
 
-3. **Start the Nginx Service:**
+5. **Start the Nginx Service:**
    Use the command `sudo systemctl start nginx` to activate nginx.
 
-4. **Verify Nginx is Running:**
+6. **Verify Nginx is Running:**
    Use command `sudo service nginx status` to confirm nginx is active (running).
    Ensure the output shows `active (running)`.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-24%20085131.png)
    
-5. **Check Installation**
+8. **Check Installation**
    To confirm the above process is working properly, search the instance Public IP Address in a browser (e.g.,      `34.244.67.156` or `http://34.244.67.156`). You should see the default Nginx welcome page.
    
 ---
