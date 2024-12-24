@@ -73,7 +73,8 @@ Ensure the system is up-to-date.
    Ensure the output shows `active (running)`.
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-24%20085131.png)
    
-8. **Check Installation**
-   To confirm the above process is working properly, search the instance Public IP Address in a browser (e.g.,      `34.244.67.156` or `http://34.244.67.156`). You should see the default Nginx welcome page.
+8. **Check Installation:**
+   To confirm the above process is working properly, search the instance Public IP Address in a browser (e.g., `34.244.67.156` or `http://34.244.67.156`). You should see the default Nginx welcome page.
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-24%20091306.png)
    
 ---
