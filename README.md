@@ -115,7 +115,7 @@ To set up the security group of the instance for HTTP traffic port 80:
 
 ---
 
-## Final outcome when the IP address of the server is searched on a internet. `IP ADDRESS: 34.244.67.156`
+## Final outcome when the IP address of the server is searched in a browser.
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131909.png)
 
 # INSTANCE IP: 34.244.67.156
