@@ -1,3 +1,5 @@
+# DOCUMENTATION
+
 # INSTANCE IP: 34.244.67.156
 
 # Server Setup Guide
@@ -100,3 +102,7 @@ Ensure the system is up-to-date.
 
 6. Final outcome when the IP address of the server is searched via the internet. `IP ADDRESS: 34.244.67.156`
    ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131909.png)
+
+---
+
+## Step 4: Networking Configuration
