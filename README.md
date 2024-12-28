@@ -78,3 +78,23 @@ Ensure the system is up-to-date.
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-24%20091306.png)
    
 ---
+
+### Step 3: Create and Deploy the HTML Page
+1. HTML page is displayed via the `/var/www/html/` directory. In this directory, I created a new HTML file to be displayed containing bio of me.
+2. In `/var/www/html/` directory, create HTML file using this code
+   ```bash
+     touch index.html
+   ```
+3. Use `VIM` editor to edit the new HTML file. Command:
+   ```bash
+     sudo vi index.html
+   ```
+4. Image content of index.html
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20130542.png)
+5. Replace the default web page in `/var/www/html/` with a new extension. This is done to allow the new HTML file to display properly
+   ```bash
+     sudo mv index.nginx-debian.html.html index.nginx-debian.html.css
+   ```
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131404.png)
+6. Final outcome when the IP address of the server is searched via the internet. `IP ADDRESS: 34.244.67.156`
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131909.png)
