@@ -88,7 +88,7 @@ Ensure the system is up-to-date.
    ```bash
      touch index.html
    ```
-3. Use `VIM` editor to edit the new HTML file. Command:
+3. Use **VIM editor** to edit the new HTML file. Command:
    ```bash
      sudo vi index.html
    ```
@@ -100,9 +100,22 @@ Ensure the system is up-to-date.
    ```
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131404.png)
 
-6. Final outcome when the IP address of the server is searched via the internet. `IP ADDRESS: 34.244.67.156`
-   ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131909.png)
-
 ---
 
 ## Step 4: Networking Configuration
+Security group of the instance is essential to grant access to the instance.
+To set up the security group of the instance for HTTP traffic port 80:
+1. Navigate to **Network and security**
+2. Click **Security Groups**
+   ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20160208.png)
+3. Select the security group of the instance
+4. Via the **Inbound rule section**, click on **Edit inbound rule**
+5. Add rule which states Type `HTTP` Port range `80` Source `Custom` `0.0.0.0/0` This grant access from anywhere in the internet.
+   ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20155228.png)
+
+---
+
+## Final outcome when the IP address of the server is searched on a internet. `IP ADDRESS: 34.244.67.156`
+![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131909.png)
+
+# INSTANCE IP: 34.244.67.156
