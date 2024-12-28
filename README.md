@@ -80,6 +80,7 @@ Ensure the system is up-to-date.
 ---
 
 ### Step 3: Create and Deploy the HTML Page
+
 1. HTML page is displayed via the `/var/www/html/` directory. In this directory, I created a new HTML file to be displayed containing bio of me.
 2. In `/var/www/html/` directory, create HTML file using this code
    ```bash
@@ -96,5 +97,6 @@ Ensure the system is up-to-date.
      sudo mv index.nginx-debian.html.html index.nginx-debian.html.css
    ```
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131404.png)
+
 6. Final outcome when the IP address of the server is searched via the internet. `IP ADDRESS: 34.244.67.156`
 ![Alt Text](https://github.com/almightydeus/sec-sem-exam-project/blob/main/Screenshot%202024-12-28%20131909.png)
